@@ -1,0 +1,33 @@
+page {
+  background-color: #fff;
+}
+
+.page-body {
+}
+
+.page-section {
+}
+
+.swiper_item {
+  height: 150px;
+  background-color: #efefef;
+}
+
+.title {
+  box-sizing: border-box;
+  margin-top: 45rpx;
+  padding: 0 0;
+  height: 90rpx;
+  width: 100%;
+}
+
+.content {
+  box-sizing: border-box;
+  margin-top: 45rpx;
+  padding: 0 24rpx;
+  font-size: 28rpx;
+  color: #333;
+  line-height: 54rpx;
+  text-indent: 80rpx;
+  letter-spacing: 2rpx;
+}
