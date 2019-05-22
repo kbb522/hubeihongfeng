@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/lv1/lv1",
+    "pages/about/about",
     "pages/index/index",
     "pages/logs/logs"
   ],
