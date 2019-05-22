@@ -24,10 +24,21 @@ page {
 .content {
   box-sizing: border-box;
   margin-top: 45rpx;
-  padding: 0 24rpx;
+  padding: 0 24rpx 0 30rpx;
   font-size: 28rpx;
   color: #333;
+}
+
+.mark_pic {
+  width: 62rpx;
+  height: 49rpx;
+  display: block;
+  margin-bottom: 30rpx;
+}
+
+.content_text {
+  display: block;
   line-height: 54rpx;
-  text-indent: 80rpx;
   letter-spacing: 2rpx;
+  text-indent: 60rpx;
 }
