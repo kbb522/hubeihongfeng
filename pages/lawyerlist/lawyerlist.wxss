@@ -1,0 +1,79 @@
+/* pages/lawyerlist/lawyerlist.wxss */
+
+.container {
+  padding: 33rpx 26rpx;
+}
+
+.li {
+  margin-top: 44rpx;
+}
+
+.li:nth-of-type(1) {
+  margin: 0;
+}
+
+.title {
+  height: 54rpx;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 9rpx;
+  left: 66rpx;
+  font-size: 12px;
+  color: white;
+  font-style: italic;
+}
+
+.num_text {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 36rpx;
+}
+
+.content_left {
+  width: 270rpx;
+}
+
+.content_right {
+  margin-left: 36rpx;
+  flex: 1;
+  position: relative;
+}
+
+.content_icon1 {
+  width: 18rpx;
+  height: 18rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8rpx;
+}
+
+.intro {
+  font-size: 26rpx;
+  color: #303030;
+  line-height: 44rpx;
+  letter-spacing: 2rpx;
+  margin-top: 14rpx;
+}
+
+.more {
+  font-size: 20rpx;
+  color: #979797;
+  position: absolute;
+  left: 0;
+  bottom: 10rpx;
+}

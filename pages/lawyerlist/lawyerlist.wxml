@@ -1,0 +1,118 @@
+<!--pages/lawyerlist/lawyerlist.wxml-->
+
+<view class="container">
+  <view class="page-body">
+    <view class="ul">
+      <view class="li">
+        <view class='title'>
+          <image src="../../assets/images/bg_num@2x.png" mode="aspectFill" style=""></image>
+          <text class="number">01</text>
+          <view class="num_text">
+            <text style="margin-left:130rpx;font-size:33rpx;line-hight:54rpx;">徐毅</text>
+            <text style="margin-left:30rpx;font-size:24rpx;line-hight:54rpx;color:#666">高级律师顾问、合伙人</text>
+          </view>
+        </view>
+
+        <view class="content">
+          <view class='content_left'>
+            <view style="border-left: 11rpx solid #cde7d9;border-right: 11rpx solid #cde7d9; padding:0 14rpx">
+              <image src="../../assets/images/lewer.jpg" style="width:220rpx;height:220rpx;" mode="aspectFill"></image>
+            </view>
+          </view>
+          <view class='content_right'>
+            <view style="color:#159B52;font-size:24rpx;vertical-align:middle">
+              <view style="display:inline-block;margin-right:66rpx;">
+                <image mode='aspectFill' src="../../assets/images/time@2x.png" class="content_icon1"></image>
+                <text>执业12年</text>
+              </view>
+              <view style="display:inline-block;">
+                <image mode='aspectFill' src="../../assets/images/phonenum@2x.png" class="content_icon1"></image>
+                <text>13720388158</text>
+              </view>
+            </view>
+
+            <view class="intro">
+              擅长领域：企业法律风控、商业争端解决、清泉责任等。
+            </view>
+
+            <view class="more">查看详情>></view>
+          </view>
+        </view>
+      </view>
+
+      <view class="li">
+        <view class='title'>
+          <image src="../../assets/images/bg_num@2x.png" mode="aspectFill" style=""></image>
+          <text class="number">01</text>
+          <view class="num_text">
+            <text style="margin-left:130rpx;font-size:33rpx;line-hight:54rpx;">徐毅</text>
+            <text style="margin-left:30rpx;font-size:24rpx;line-hight:54rpx;color:#666">高级律师顾问、合伙人</text>
+          </view>
+        </view>
+
+        <view class="content">
+          <view class='content_left'>
+            <view style="border-left: 11rpx solid #cde7d9;border-right: 11rpx solid #cde7d9; padding:0 14rpx">
+              <image src="../../assets/images/lewer.jpg" style="width:220rpx;height:220rpx;" mode="aspectFill"></image>
+            </view>
+          </view>
+          <view class='content_right'>
+            <view style="color:#159B52;font-size:24rpx;vertical-align:middle">
+              <view style="display:inline-block;margin-right:66rpx;">
+                <image mode='aspectFill' src="../../assets/images/time@2x.png" class="content_icon1"></image>
+                <text>执业12年</text>
+              </view>
+              <view style="display:inline-block;">
+                <image mode='aspectFill' src="../../assets/images/phonenum@2x.png" class="content_icon1"></image>
+                <text>13720388158</text>
+              </view>
+            </view>
+
+            <view class="intro">
+              擅长领域：企业法律风控、商业争端解决、清泉责任等。
+            </view>
+
+            <view class="more">查看详情>></view>
+          </view>
+        </view>
+      </view>
+
+      <view class="li">
+        <view class='title'>
+          <image src="../../assets/images/bg_num@2x.png" mode="aspectFill" style=""></image>
+          <text class="number">01</text>
+          <view class="num_text">
+            <text style="margin-left:130rpx;font-size:33rpx;line-hight:54rpx;">徐毅</text>
+            <text style="margin-left:30rpx;font-size:24rpx;line-hight:54rpx;color:#666">高级律师顾问、合伙人</text>
+          </view>
+        </view>
+
+        <view class="content">
+          <view class='content_left'>
+            <view style="border-left: 11rpx solid #cde7d9;border-right: 11rpx solid #cde7d9; padding:0 14rpx">
+              <image src="../../assets/images/lewer.jpg" style="width:220rpx;height:220rpx;" mode="aspectFill"></image>
+            </view>
+          </view>
+          <view class='content_right'>
+            <view style="color:#159B52;font-size:24rpx;vertical-align:middle">
+              <view style="display:inline-block;margin-right:66rpx;">
+                <image mode='aspectFill' src="../../assets/images/time@2x.png" class="content_icon1"></image>
+                <text>执业12年</text>
+              </view>
+              <view style="display:inline-block;">
+                <image mode='aspectFill' src="../../assets/images/phonenum@2x.png" class="content_icon1"></image>
+                <text>13720388158</text>
+              </view>
+            </view>
+
+            <view class="intro">
+              擅长领域：企业法律风控、商业争端解决、清泉责任等。
+            </view>
+
+            <view class="more">查看详情>></view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
