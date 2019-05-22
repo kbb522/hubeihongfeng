@@ -29,7 +29,7 @@
             <image mode="aspectFit" bindtap="tapName" style="width:180rpx;height:180rpx;" src="../../assets/images/qrcode.jpg"></image>
             <view style="text-align:center">
               <image mode="aspectFit" style="margin-right:20rpx;width:29rpx;height:23rpx;display:inline-block" src="../../assets/images/follow@2x.png"></image>
-              <text>长按关注</text>
+              <text>点击保存</text>
             </view>
           </view>
           <view class="address_right">
@@ -38,8 +38,6 @@
             <view class="row">电话：13720388158</view>
           </view>
         </view>
-
-
       </view>
     </view>
   </view>
