@@ -1,0 +1,61 @@
+/* pages/counsel/counsel.wxss */
+
+page {
+  background: #f9f9f9;
+}
+
+.container {
+  padding: 20rpx;
+}
+
+.card {
+  padding: 20rpx;
+  background: white;
+  margin-bottom: 20rpx;
+}
+
+.h3 {
+  display: block;
+  font-size: 32rpx;
+  margin: 20rpx;
+}
+
+.value {
+  padding-left: 30rpx;
+}
+
+.pClass {
+  color: #303030;
+  font-size: 28rpx;
+  width: 100%;
+  line-height: 44rpx;
+  letter-spacing: 2rpx;
+}
+
+.label {
+  margin: 0 20rpx;
+  color: #303030;
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+}
+
+.label input {
+  margin-left: 20rpx;
+  display: inline-block;
+  border-bottom: 1rpx solid rgba(235, 235, 235, 1);
+  width: 500rpx;
+  padding: 20rpx 5rpx;
+}
+
+.formSubmit {
+  background: #159b52;
+  color: white;
+  position: fixed;
+  bottom: 40rpx;
+  width: 710rpx;
+  border: 0;
+}
+.formSubmit_hover {
+  background: #27a862;
+}

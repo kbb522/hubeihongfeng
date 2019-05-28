@@ -1,0 +1,87 @@
+/* pages/lawyerdetail/lawyerdetail.wxss */
+
+.container {
+  padding: 33rpx 26rpx;
+}
+
+.li {
+  margin-top: 44rpx;
+}
+
+.li:nth-of-type(1) {
+  margin: 0;
+}
+
+.title {
+  height: 54rpx;
+}
+
+.num_text {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.content_left {
+  width: 270rpx;
+}
+
+.content_right {
+  margin-left: 36rpx;
+  flex: 1;
+  position: relative;
+}
+
+.content_icon1 {
+  width: 18rpx;
+  height: 18rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8rpx;
+}
+
+.intro {
+  font-size: 26rpx;
+  color: #303030;
+  line-height: 44rpx;
+  letter-spacing: 2rpx;
+  margin-top: 14rpx;
+}
+
+/**
+下面是正文
+*/
+
+.context_box {
+  margin-top: 86rpx;
+  padding: 40rpx;
+  border: 1px solid #159b52;
+  position: relative;
+}
+
+.middle_title {
+  width: 248rpx;
+  height: 39rpx;
+  position: absolute;
+  top: -20rpx;
+  left: 50%;
+  margin-left: -124rpx;
+  background: white;
+}
+
+.content_text {
+  text-indent: 60rpx;
+  font-size: 28rpx;
+  color: #303030;
+  line-height: 54rpx;
+  letter-spacing: 4rpx;
+}
+
+.content_text view {
+  margin-bottom: 30rpx;
+}

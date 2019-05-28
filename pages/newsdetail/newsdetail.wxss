@@ -1,0 +1,24 @@
+.container {
+  padding: 24rpx;
+  padding-bottom: 50rpx;
+}
+
+.h1 {
+  display: block;
+  line-height: 60rpx;
+  font-size: 42rpx;
+  color: #303030;
+}
+
+.publictime {
+  font-size: 24rpx;
+  color: #A2A2A2;
+  line-height: 104rpx;
+}
+
+.content {
+  color: #303030;
+  font-size: 28rpx;
+  line-height: 44rpx;
+  letter-spacing: 2rpx;
+}

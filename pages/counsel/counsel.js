@@ -1,4 +1,4 @@
-// pages/lawyerlist/lawyerlist.js
+// pages/counsel/counsel.js
 Page({
 
   /**
@@ -6,65 +6,70 @@ Page({
    */
   data: {
 
+    array: ['婚姻家事', '劳动工伤', '债权债务', '合同纠纷', '刑事纠纷', '医疗纠纷', '交通事故', '知识产权', '公司法务', '其他'],
+    index: -1
   },
-  toDetail(event) {
-    wx.navigateTo({
-      url: '/pages/lawyerdetail/lawyerdetail',
+
+  bindPickerChange: function(e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      index: e.detail.value
     })
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function(options) {
 
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
+  onReady: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
+  onShow: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function () {
+  onHide: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function () {
+  onUnload: function() {
 
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {
+  onPullDownRefresh: function() {
 
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {
+  onReachBottom: function() {
 
   },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
+  onShareAppMessage: function() {
 
   }
 })

@@ -1,4 +1,4 @@
-// pages/lawyerlist/lawyerlist.js
+// pages/newslist/newsdetail.js
 Page({
 
   /**
@@ -7,9 +7,9 @@ Page({
   data: {
 
   },
-  toDetail(event) {
+  onTap() {
     wx.navigateTo({
-      url: '/pages/lawyerdetail/lawyerdetail',
+      url: '/pages/newsdetail/newsdetail',
     })
   },
   /**

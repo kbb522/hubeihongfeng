@@ -1,0 +1,57 @@
+/* pages/cases/cases.wxss */
+
+.container {
+  padding: 10rpx;
+}
+
+.li {
+  margin: 0 auto;
+  width: 702rpx;
+  height: 285rpx;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
+
+.li.top {
+  background: #159b52;
+}
+
+.li_content {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  heigth: 100%;
+  top: 0;
+  left: 0;
+}
+
+.li_content_text {
+  margin: 0 30rpx;
+  font-size: 28rpx;
+  color: white;
+  line-height: 46rpx;
+  margin-top: 70rpx;
+  letter-spacing: 2rpx;
+  text-indent: 60rpx;
+}
+
+.quotation_01 {
+  position: absolute;
+  top: 27rpx;
+  left: 40rpx;
+  width: 82rpx;
+  height: 37rpx;
+}
+
+.quotation_02 {
+  position: absolute;
+  bottom: 27rpx;
+  right: 40rpx;
+  width: 82rpx;
+  height: 37rpx;
+}
+
+.white .li_content_text {
+  color: #303030;
+}

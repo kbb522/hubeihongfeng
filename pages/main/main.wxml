@@ -1,0 +1,6 @@
+<!--pages/main/main.wxml-->
+<button bindtap="onTap1">律所介绍</button>
+<button bindtap="onTap2">律师风采</button>
+<button bindtap="onTap3">律所动态</button>
+<button bindtap="onTap4">经典案例</button>
+<button bindtap="onTap5">业务咨询</button>

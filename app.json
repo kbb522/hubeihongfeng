@@ -1,7 +1,13 @@
 {
   "pages": [
-    "pages/about/about",
+    "pages/main/main",
+    "pages/newsdetail/newsdetail",
+    "pages/newslist/newslist",
+    "pages/counsel/counsel",
+    "pages/cases/cases",
+    "pages/lawyerdetail/lawyerdetail",
     "pages/lawyerlist/lawyerlist",
+    "pages/about/about",
     "pages/index/index",
     "pages/logs/logs"
   ],

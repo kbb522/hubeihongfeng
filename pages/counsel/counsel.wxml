@@ -1,0 +1,30 @@
+<view class="container">
+  <view class="page-body">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class="card">
+
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker">
+            <text class="h3">问题类型：<text class="value">{{array[index] ? array[index] : '请选择'}}</text></text>
+          </view>
+        </picker>
+
+      </view>
+      <view class="card">
+        <textarea class="pClass" maxlength="2000" placeholder-class="pClass" placeholder="请至少输入20个汉字，尽可能将您的情况完整告诉律师，以便得到律师的专业意见！" placeholder-style="color:#999;font-size:28rpx;" />
+      </view>
+
+      <view class="card" style="padding-bottom:40rpx;">
+        <text class="h3">联系方式</text>
+        <view class="label">姓名：
+          <input class="pClass" placeholder-style="color:#999;font-size:28rpx;" placeholder="如何称呼您" />
+        </view>
+        <view class="label">电话：
+          <input class="pClass" placeholder-style="color:#999;font-size:28rpx;" placeholder="您的联系电话" />
+        </view>
+      </view>
+
+      <button class="formSubmit" hover-class="formSubmit_hover">提交咨询</button>
+    </form>
+  </view>
+</view>

@@ -3,7 +3,7 @@
 <view class="container">
   <view class="page-body">
     <view class="ul">
-      <view class="li">
+      <view class="li" bindtap="toDetail">
         <view class='title'>
           <image src="../../assets/images/bg_num@2x.png" mode="aspectFill" style=""></image>
           <text class="number">01</text>
@@ -40,7 +40,7 @@
         </view>
       </view>
 
-      <view class="li">
+      <view class="li" bindtap="toDetail">
         <view class='title'>
           <image src="../../assets/images/bg_num@2x.png" mode="aspectFill" style=""></image>
           <text class="number">01</text>
@@ -77,7 +77,7 @@
         </view>
       </view>
 
-      <view class="li">
+      <view class="li" bindtap="toDetail">
         <view class='title'>
           <image src="../../assets/images/bg_num@2x.png" mode="aspectFill" style=""></image>
           <text class="number">01</text>

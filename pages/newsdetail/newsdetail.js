@@ -1,4 +1,4 @@
-// pages/lawyerlist/lawyerlist.js
+// pages/newslist/newsdetail.js
 Page({
 
   /**
@@ -7,11 +7,7 @@ Page({
   data: {
 
   },
-  toDetail(event) {
-    wx.navigateTo({
-      url: '/pages/lawyerdetail/lawyerdetail',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,0 +1,54 @@
+<view class="container">
+  <view class="page-body">
+    <view class="ul">
+      <view class="li top">
+        <image src='../../assets/images/bg_decorate@2x.png'></image>
+
+        <image class="quotation_01" src="../../assets/images/quotation_white01@2x.png" mode='aspectFix'></image>
+        <image class="quotation_02" src="../../assets/images/quotation_white02@2x.png" mode='aspectFix'></image>
+
+        <view class="li_content">
+          <view class="li_content_text">
+            多因一果侵权行为的赔偿责任——江苏某公司诉黄某等道路交通事故财产损害赔偿纠纷一案评析
+          </view>
+        </view>
+      </view>
+
+      <view class="li white">
+
+        <image class="quotation_01" src="../../assets/images/quotation_green01@2x.png" mode='aspectFix'></image>
+        <image class="quotation_02" src="../../assets/images/quotation_green02@2x.png" mode='aspectFix'></image>
+
+        <view class="li_content">
+          <view class="li_content_text">
+            多因一果侵权行为的赔偿责任——江苏某公司诉黄某等道路交通事故财产损害赔偿纠纷一案评析
+          </view>
+        </view>
+      </view>
+
+      <view class="li white">
+
+        <image class="quotation_01" src="../../assets/images/quotation_green01@2x.png" mode='aspectFix'></image>
+        <image class="quotation_02" src="../../assets/images/quotation_green02@2x.png" mode='aspectFix'></image>
+
+        <view class="li_content">
+          <view class="li_content_text">
+            多因一果侵权行为的赔偿责任——江苏某公司诉黄某等道路交通事故财产损害赔偿纠纷一案评析
+          </view>
+        </view>
+      </view>
+
+      <view class="li white">
+
+        <image class="quotation_01" src="../../assets/images/quotation_green01@2x.png" mode='aspectFix'></image>
+        <image class="quotation_02" src="../../assets/images/quotation_green02@2x.png" mode='aspectFix'></image>
+
+        <view class="li_content">
+          <view class="li_content_text">
+            多因一果侵权行为的赔偿责任——江苏某公司诉黄某等道路交通事故财产损害赔偿纠纷一案评析
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

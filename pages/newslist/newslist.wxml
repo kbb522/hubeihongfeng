@@ -1,0 +1,62 @@
+<view class="container">
+  <view class="page-body">
+    <view class="ul">
+      <view class="li" bindtap="onTap">
+        <view class="left">
+          <view class="date">
+            <view class="daytop"></view>
+            <text class="day">05</text>日
+            <span class="yearmonth">2019/03</span>
+          </view>
+          <view class="title">微信小程序解决 text 设置行高 line-height</view>
+        </view>
+
+        <view class="right">
+          <image src="../../assets/images/xiaojiejie.jpg"></image>
+        </view>
+      </view>
+
+      <view class="li" bindtap="onTap">
+        <view class="left">
+          <view class="date">
+            <view class="daytop"></view>
+            <text class="day">05</text>日
+            <span class="yearmonth">2019/03</span>
+          </view>
+          <view class="title">微信小程序解决 text 设置行高 line-height</view>
+        </view>
+
+        <view class="right">
+          <image src="../../assets/images/xiaojiejie.jpg"></image>
+        </view>
+      </view>
+
+      <view class="li" bindtap="onTap">
+        <view class="left">
+          <view class="date">
+            <view class="daytop"></view>
+            <text class="day">05</text>日
+            <span class="yearmonth">2019/03</span>
+          </view>
+          <view class="title">微信小程序解决 text 设置行高 line-height</view>
+        </view>
+
+      </view>
+
+      <view class="li" bindtap="onTap">
+        <view class="left">
+          <view class="date">
+            <view class="daytop"></view>
+            <text class="day">05</text>日
+            <span class="yearmonth">2019/03</span>
+          </view>
+          <view class="title">微信小程序解决 text 设置行高 line-height</view>
+        </view>
+
+        <view class="right">
+          <image src="../../assets/images/xiaojiejie.jpg"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+/* pages/main/main.wxss */
+button {
+  margin: 0 20rpx;
+  margin-bottom: 20rpx;
+  
+}
