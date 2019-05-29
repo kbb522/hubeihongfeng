@@ -41,11 +41,13 @@ page {
 }
 
 .label input {
+  font-size: 28rpx;
   margin-left: 20rpx;
   display: inline-block;
   border-bottom: 1rpx solid rgba(235, 235, 235, 1);
   width: 500rpx;
   padding: 20rpx 5rpx;
+  line-height: 28rpx;
 }
 
 .formSubmit {
@@ -56,6 +58,7 @@ page {
   width: 710rpx;
   border: 0;
 }
+
 .formSubmit_hover {
   background: #27a862;
 }

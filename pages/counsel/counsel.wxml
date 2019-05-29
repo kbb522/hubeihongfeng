@@ -17,10 +17,10 @@
       <view class="card" style="padding-bottom:40rpx;">
         <text class="h3">联系方式</text>
         <view class="label">姓名：
-          <input class="pClass" placeholder-style="color:#999;font-size:28rpx;" placeholder="如何称呼您" />
+          <input class="pClass" placeholder-style="color:#999;font-size:28rpx;letter-spacing: 0;" placeholder="如何称呼您" />
         </view>
         <view class="label">电话：
-          <input class="pClass" placeholder-style="color:#999;font-size:28rpx;" placeholder="您的联系电话" />
+          <input class="pClass" placeholder-style="color:#999;font-size:28rpx;letter-spacing: 0;" placeholder="您的联系电话" />
         </view>
       </view>
 
