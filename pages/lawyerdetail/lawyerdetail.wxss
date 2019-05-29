@@ -75,13 +75,11 @@
 }
 
 .content_text {
-  text-indent: 60rpx;
+  display: block;
   font-size: 28rpx;
   color: #303030;
   line-height: 54rpx;
   letter-spacing: 4rpx;
 }
 
-.content_text view {
-  margin-bottom: 30rpx;
-}
+
