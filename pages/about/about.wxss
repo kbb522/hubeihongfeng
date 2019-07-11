@@ -1,3 +1,5 @@
+@import '../../libs/wxParse/wxParse.wxss';
+
 page {
   background-color: #fff;
 }
@@ -42,7 +44,7 @@ page {
   margin-bottom: 20rpx;
 }
 
-.content_text {
+.wxParse-p {
   margin-bottom: 30rpx;
   display: block;
   line-height: 54rpx;

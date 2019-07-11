@@ -1,4 +1,7 @@
 // pages/lv1/lv1.js
+
+let WxParse = require('../../libs/wxParse/wxParse.js');
+
 Page({
   tapName(event) {
     // wx.openSetting({
@@ -42,14 +45,19 @@ Page({
   /**
    * 页面的初始数据
    */
-  data: {
-
-  },
+  data: {},
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
+    let that = this;
+    wx.request({
+      url: 'http://localhost:8360/intro',
+      success(res) {
+        WxParse.wxParse('article', 'html', res.data.intro, that, 5);
+      }
+    })
 
   },
 

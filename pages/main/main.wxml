@@ -4,3 +4,4 @@
 <button bindtap="onTap3">律所动态</button>
 <button bindtap="onTap4">经典案例</button>
 <button bindtap="onTap5">业务咨询</button>
+{{name}}

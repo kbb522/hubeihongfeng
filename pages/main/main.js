@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    name: '无'
   },
   onTap1(event) {
     wx.navigateTo({
@@ -36,7 +36,13 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-
+    let _that = this
+    wx.request({
+      url: 'http://kbb522.wicp.io/abc.json',
+      success(res) {
+        _that.setData({name:res.data.name})
+      }
+    })
   },
 
   /**
